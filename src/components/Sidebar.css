@@ -1,0 +1,60 @@
+.photo-sketch {
+  border-radius: 50%;
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 -10px;
+}
+.side-menu {
+  background-color: lightgreen;
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  border-radius: 7px;
+}
+
+.side-menu-items {
+  margin: 0 0 0 30px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px 0 10px 10px;
+}
+
+.side-text {
+  text-decoration: none;
+  display: flex;
+}
+
+.side-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.name-link {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0 10px 0;
+  color: black;
+}
+.my-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.front-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 0 10px 15px; */
+  /* margin: 10px 0 0 -10px; */
+}
