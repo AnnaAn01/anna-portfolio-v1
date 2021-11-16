@@ -1,16 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Photo from "../img/photoSketch.jpg";
 import * as FaIcons from "react-icons/fa";
 import { SidebarData } from "./SidebarData.js";
 import * as MdIcons from "react-icons/md";
+
 import "./Sidebar.css";
 
 function Sidebar() {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <div className="sidebar">
       <nav className="side-menu">
         <ul className="side-menu-items">
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          </div>
           <Link to="/" className="photo-sketch">
             <img src={Photo} alt="Profile" className="photo-sketch" />
           </Link>
@@ -22,7 +29,7 @@ function Sidebar() {
             return (
               <li key={index} className={item.cName}>
                 <Link to={item.path}>
-                  {/*{item.icon}*/}
+                  {item.icon}
                   <span>{item.title}</span>
                 </Link>
               </li>
