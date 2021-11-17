@@ -14,10 +14,10 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <nav className="side-menu">
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        </div>
         <ul className="side-menu-items">
-          <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
-          </div>
           <Link to="/" className="photo-sketch">
             <img src={Photo} alt="Profile" className="photo-sketch" />
           </Link>

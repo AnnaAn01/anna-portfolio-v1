@@ -67,7 +67,7 @@
   .side-menu {
     background-color: blue;
     width: 100%;
-    height: 40vh;
+    height: 42vh;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -80,14 +80,14 @@
     width: 70%;
     justify-content: center;
     align-items: center;
-    margin: 15px 0 0 20px;
+    margin: 5px 0 0 17px;
   }
   .name-link {
     display: block;
     text-decoration: none;
     padding: 10px 0 10px 0;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
   }
   .my-name {
     display: flex;
@@ -105,17 +105,19 @@
   }
 
   .menu-icon {
-    display: block;
-    position: absolute;
-    padding: 200px 10px 10px 20px;
-    right: 200px;
-    transform: translate(-100%, 60%);
+    display: flex;
+    position: fixed;
+    padding: 15px 0px 0px 250px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* right: 200px; */
+    /* transform: translate(-100%, 60%); */
     font-size: 1.8rem;
     cursor: pointer;
   }
-
+  /* 
   .fa-times {
     color: red;
     font-size: 2rem;
-  }
+  } */
 }
