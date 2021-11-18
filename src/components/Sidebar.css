@@ -86,7 +86,7 @@
     display: block;
     text-decoration: none;
     padding: 10px 0 10px 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.932);
     font-size: 17px;
   }
   .my-name {
