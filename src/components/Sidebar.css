@@ -104,6 +104,9 @@
     /* margin: 10px 0 0 -10px; */
   }
 
+  .side-text a {
+    display: none;
+  }
   .menu-icon {
     display: flex;
     position: fixed;
