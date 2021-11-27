@@ -21,27 +21,31 @@ function Sidebar() {
           <Link to="/" className="photo-sketch">
             <img src={Photo} alt="Profile" className="photo-sketch" />
           </Link>
-          <Link to="/" className="name-link photo-sketch">
-            <div className="my-name">ANNA DEVELOPER</div>
-            <div className="front-end">FRONT-END DEVELOPER</div>
-          </Link>
-          {SidebarData.map((item, index) => {
-            return (
-              <li key={index} className={item.cName}>
-                <Link to={item.path}>
-                  {item.icon}
-                  <span>{item.title}</span>
-                </Link>
-              </li>
-            );
-          })}
-          <div className="get-in-touch">GET IN TOUCH</div>
-          <div className="sidebar-social-media-icons">
-            <span>
-              <a target="_blank" rel="noreferrer" href="https://gmail.com">
-                <MdIcons.MdEmail className="sidebar-sns" />
-              </a>
-            </span>
+          <div className="name-link">
+            <Link to="/" className="name-link photo-sketch">
+              <span className="my-name">ANNA DEVELOPER</span>
+              <span className="front-end">FRONT-END DEVELOPER</span>
+            </Link>
+          </div>
+          <div className="menu-item-links">
+            {SidebarData.map((item, index) => {
+              return (
+                <li key={index} className={item.cName}>
+                  <Link to={item.path}>
+                    {item.icon}
+                    <span>{item.title}</span>
+                  </Link>
+                </li>
+              );
+            })}
+            <div className="get-in-touch">GET IN TOUCH</div>
+            <div className="sidebar-social-media-icons">
+              <span>
+                <a target="_blank" rel="noreferrer" href="https://gmail.com">
+                  <MdIcons.MdEmail className="sidebar-sns" />
+                </a>
+              </span>
+            </div>
             <span>
               <a target="_blank" rel="noreferrer" href="https://linkedin.com">
                 <FaIcons.FaLinkedin className="sidebar-sns" />

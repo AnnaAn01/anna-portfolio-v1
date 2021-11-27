@@ -39,21 +39,26 @@
 }
 
 .name-link {
-  display: block;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  background-color: red;
+  padding-bottom: 50px;
+  /* display: block;
   text-decoration: none;
   padding: 10px 0 10px 0;
   color: black;
-  font-size: 16px;
+  font-size: 16px; */
 }
 .my-name {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   margin: 0 0 10px 0;
 }
 
 .front-end {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   /* padding: 10px 0 10px 15px; */
@@ -61,6 +66,10 @@
 }
 .menu-icon {
   display: none;
+}
+
+.menu-item-links {
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 960px) {
