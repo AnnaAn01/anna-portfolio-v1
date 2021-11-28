@@ -1,139 +1,55 @@
-.photo-sketch {
-  border-radius: 50%;
-  display: flex;
-  width: 75%;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0 0 0px;
-  top: 50%;
-  left: 50%;
-}
 .side-menu {
   background-color: lightgreen;
   width: 25%;
   height: 100vh;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   position: fixed;
-  top: 0;
   border-radius: 7px;
 }
 
-.side-menu-items {
-  margin: 0 0 0 30px;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 10px 0 10px 10px;
+.name-and-photo {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photo-sketch {
+  border-radius: 50%;
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.name-link {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; /*this prevents the line break*/
+  letter-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.name-link a {
+  display: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-name {
+  display: flex;
+  justify-content: center;
+}
+
+.front-end {
+  display: flex;
+  justify-content: center;
 }
 
 .side-text {
   text-decoration: none;
   display: flex;
-}
-
-.side-text a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  margin: 10px;
-}
-
-.name-link {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  padding-bottom: 50px;
-  letter-spacing: 5px;
-  /* display: block;
-  text-decoration: none;
-  padding: 10px 0 10px 0;
-  color: black;
-  font-size: 16px; */
-}
-.my-name {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0 10px 0;
-}
-
-.front-end {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0 10px 0;
-  /* padding: 10px 0 10px 15px; */
-  /* margin: 10px 0 0 -10px; */
-}
-.menu-icon {
-  display: none;
-}
-
-.menu-item-links {
-  margin-top: 100px;
-}
-
-@media screen and (max-width: 960px) {
-  .side-menu {
-    background-color: lightblue;
-    width: 100%;
-    height: 42vh;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    border-radius: 7px;
-  }
-
-  .photo-sketch {
-    border-radius: 50%;
-    display: flex;
-    width: 70%;
-    justify-content: center;
-    align-items: center;
-    margin: 5px 0 0 17px;
-  }
-  .name-link {
-    display: block;
-    text-decoration: none;
-    padding: 10px 0 10px 0;
-    color: rgba(255, 255, 255, 0.932);
-    font-size: 17px;
-  }
-  .my-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 10px 0;
-  }
-
-  .front-end {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px 0 10px 15px; */
-    /* margin: 10px 0 0 -10px; */
-  }
-
-  .side-text a {
-    display: none;
-  }
-  .menu-icon {
-    display: flex;
-    position: fixed;
-    padding: 15px 0px 0px 250px;
-    justify-content: flex-end;
-    align-items: flex-end;
-    /* right: 200px; */
-    /* transform: translate(-100%, 60%); */
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
-
-  .fa-times {
-    color: red;
-    font-size: 2rem;
-  }
 }
