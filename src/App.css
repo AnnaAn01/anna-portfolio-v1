@@ -1,12 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+html {
+  font-size: 62.5%;
+}
 
-* {
-  box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: "Lato", sans-serif;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
+
 .aboutMe,
 .portfolio,
 .myCv,

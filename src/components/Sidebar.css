@@ -3,7 +3,7 @@
   width: 25%;
   height: 100vh;
   position: fixed;
-  border-radius: 7px;
+  border-radius: 1rem;
 }
 
 .name-and-photo {
@@ -16,8 +16,8 @@
 .photo-sketch {
   border-radius: 50%;
   width: 100%;
-  margin-top: 35px;
-  margin-bottom: 30px;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
 }
 
 .name-link {
@@ -27,10 +27,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap; /*this prevents the line break*/
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
 }
 
 .name-link a {
