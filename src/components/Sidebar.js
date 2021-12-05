@@ -1,34 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Photo from "../img/photoSketch.jpg";
 import { SidebarData } from "./SidebarData.js";
-// import * as MdIcons from "react-icons/md";
-// import * as FaIcons from "react-icons/fa";
-import SnsIcons from "./SnsIcons";
-
+import { SnsIcons } from "./SnsIcons";
 import "./Sidebar.css";
 
 function Sidebar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
-  // const [iconDesktop, setIconDesktop] = useState(true);
+  const [width, setWidth] = useState(window.innerWidth);
+  const breakpoint = 1000;
 
-  // const showIcon = () => {
-  //   if (window.innerWidth <= 1000) {
-  //     setIconDesktop(false);
-  //   } else if (window.innerWidth >= 1000) {
-  //     setIconDesktop(true);
-  //   }
-  // };
-
-  // window.addEventListener("resize", showIcon);
+  useEffect(() => {
+    const handleWindowSize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleWindowSize);
+    return () => window.removeEventListener("resize", handleWindowSize);
+  }, []);
 
   return (
     <div className="sidebar">
       <div className="side-menu-sub">
-        <SnsIcons />
-        {/*{window.innerWidth <= 1000 ? <SnsIcons /> : null}*/}
+        {/*Social media icons from here*/}
+        <div className="sns-icons">
+          {width <= breakpoint ? <SnsIcons /> : null}
+        </div>
+        {/*Social media icons until here*/}
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
@@ -60,9 +57,7 @@ function Sidebar() {
             </div>
             <div className="get-in-touch">GET IN TOUCH</div>
             {/*Social media icons from here*/}
-            <SnsIcons />
-            {/* <div>{window.innerWidth > 1000 ? <SnsIcons /> : null}</div>*/}
-
+            <div>{width > breakpoint ? <SnsIcons /> : null}</div>
             {/*Social media icons until here*/}
           </ul>
         </div>

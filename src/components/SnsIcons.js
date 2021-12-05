@@ -2,9 +2,15 @@ import React from "react";
 import * as MdIcons from "react-icons/md";
 import * as FaIcons from "react-icons/fa";
 
-function SnsIcons() {
+const ICONS = ["sns-icon-web", "sns-icon-mobile"];
+
+export const SnsIcons = (iconPlacement) => {
+  // const checkiconPlacement = ICONS.includes(iconPlacement)
+  //   ? iconPlacement
+  //   : null;
+
   return (
-    <div className="sidebar-social-media-icons sns-mobile">
+    <div className="sns-icons">
       <span className="social-media-span">
         <a target="_blank" rel="noreferrer" href="https://gmail.com">
           <MdIcons.MdEmail className="sidebar-sns" />
@@ -36,6 +42,6 @@ function SnsIcons() {
       </span>
     </div>
   );
-}
+};
 
-export default SnsIcons;
+// export default SnsIcons;
