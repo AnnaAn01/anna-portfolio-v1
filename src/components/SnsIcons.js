@@ -2,13 +2,7 @@ import React from "react";
 import * as MdIcons from "react-icons/md";
 import * as FaIcons from "react-icons/fa";
 
-const ICONS = ["sns-icon-web", "sns-icon-mobile"];
-
-export const SnsIcons = (iconPlacement) => {
-  // const checkiconPlacement = ICONS.includes(iconPlacement)
-  //   ? iconPlacement
-  //   : null;
-
+export const SnsIcons = () => {
   return (
     <div className="sns-icons">
       <span className="social-media-span">
@@ -43,5 +37,3 @@ export const SnsIcons = (iconPlacement) => {
     </div>
   );
 };
-
-// export default SnsIcons;

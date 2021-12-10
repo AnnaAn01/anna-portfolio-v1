@@ -1,6 +1,7 @@
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AboutMe from "./components/pages/AboutMe";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Router>
         <Sidebar />
         <Routes>
-          <Route path="/" />
+          <Route path="/" element={<AboutMe />} />
         </Routes>
       </Router>
     </div>
