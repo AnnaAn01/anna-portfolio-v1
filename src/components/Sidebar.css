@@ -96,7 +96,7 @@
 .sns-icons a {
   color: rgb(95, 95, 95);
 }
-.sns-icon-web a:hover {
+.sns-icons a:hover {
   color: black;
 }
 .social-media-span {
@@ -106,10 +106,14 @@
 .menu-icon {
   display: none;
 }
+.unshow-mobile-menu-items {
+  display: none;
+}
 
 @media screen and (max-width: 1001px) {
   .side-menu {
-    display: block;
+    /* display: block; */
+    display: flex;
     background-color: lightgreen;
     width: 100%;
     height: 290px;
@@ -120,8 +124,8 @@
   .side-menu-sub {
     background-color: lightgreen;
     width: 100%;
-    height: 5%;
-
+    /* height: 5%; */
+    height: 50px;
     border-radius: 0;
     border-top: 0.2rem solid white;
     position: absolute;
@@ -129,6 +133,45 @@
     top: 290.5px;
   }
 
+  .extended-menu-mobile {
+    /* display: flex; */
+    width: 100%;
+    height: 25rem;
+    top: 48.5px;
+    border-top: 0.2rem solid white;
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s ease;
+    /* background: #242222; */
+    background: lightgreen;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .mobile-menu-items-link {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    white-space: nowrap; /*this prevents the line break*/
+    line-height: 4.5rem;
+  }
+  .side-text {
+    display: flex;
+    font-size: 1.7rem;
+  }
+  .side-text a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+  }
+  .title-span {
+    margin-left: 1.5rem;
+  }
+
+  .unshow-extended-menu {
+    display: none;
+  }
   .photo-sketch {
     width: 17rem;
   }
@@ -162,15 +205,10 @@
     font-size: 2.5rem;
   }
 
-  /* .sidebar-social-media-icons,
-  .sidebar-social-media-icons a {
-    display: none;
-  } */
-
   .sns-icons {
     font-size: 2.2rem;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 6.5vw;
     transform: translate(-50%, -50%);
   }

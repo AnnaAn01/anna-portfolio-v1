@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Photo from "../img/photoSketch.jpg";
-import { SidebarData } from "./SidebarData.js";
 import { SnsIcons } from "./SnsIcons";
 import "./Sidebar.css";
+import MobileMenuItems from "./MobileMenuItems";
 
 function Sidebar() {
   const [click, setClick] = useState(false);
@@ -29,6 +29,13 @@ function Sidebar() {
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
+        {/*Mobile version menu items from here*/}
+        <div
+          className={click ? "extended-menu-mobile" : "unshow-extended-menu"}
+        >
+          {width <= breakpoint ? <MobileMenuItems click /> : null}
+        </div>
+        {/*Mobile version menu items until here*/}
       </div>
       <nav className="side-menu">
         <div className="name-and-photo">
@@ -43,18 +50,11 @@ function Sidebar() {
                 <span className="front-end">FRONT-END DEVELOPER</span>
               </Link>
             </div>
+            {/*Desktop version menu items from here*/}
             <div className="menu-items-link">
-              {SidebarData.map((item, index) => {
-                return (
-                  <li key={index} className={item.cName}>
-                    <Link to={item.path}>
-                      {item.icon}
-                      <span className="title-span">{item.title}</span>
-                    </Link>
-                  </li>
-                );
-              })}
+              {width > breakpoint ? <MobileMenuItems click /> : null}
             </div>
+            {/*Desktop version menu items until here*/}
             <div className="get-in-touch">GET IN TOUCH</div>
             {/*Social media icons from here*/}
             <div>{width > breakpoint ? <SnsIcons /> : null}</div>
