@@ -8,6 +8,7 @@ import MobileMenuItems from "./MobileMenuItems";
 function Sidebar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(!click);
 
   const [width, setWidth] = useState(window.innerWidth);
   const breakpoint = 1000;
@@ -20,7 +21,7 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-      <div className="side-menu-sub">
+      <div className="side-menu-sub" onClick={handleClick}>
         {/*Social media icons from here*/}
         <div className="sns-icons">
           {width <= breakpoint ? <SnsIcons /> : null}
@@ -37,7 +38,7 @@ function Sidebar() {
         </div>
         {/*Mobile version menu items until here*/}
       </div>
-      <nav className="side-menu">
+      <nav className="side-menu" onClick={closeMobileMenu}>
         <div className="name-and-photo">
           <Link to="/" className="photo-sketch">
             <img src={Photo} alt="Profile" className="photo-sketch" />

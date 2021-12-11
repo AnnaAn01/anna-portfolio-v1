@@ -1,9 +1,10 @@
 .aboutMe {
+  height: 1000px;
 }
 
 @media screen and (max-width: 1001px) {
   .aboutMe {
-    height: 1000px;
+    height: 2000px;
     top: 250px;
     left: 50px;
   }
