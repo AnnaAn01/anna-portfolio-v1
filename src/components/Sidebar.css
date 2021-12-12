@@ -1,13 +1,13 @@
 .side-menu {
   background-color: #4b7367;
-  width: 25%;
+  width: 25vw;
   height: 100vh;
   position: fixed;
 }
 
 .name-and-photo {
   position: absolute;
-  top: 15%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -17,6 +17,10 @@
   width: 100%;
   margin-top: 5rem;
   margin-bottom: 4rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .name-link {
@@ -44,6 +48,8 @@
   display: flex;
   justify-content: center;
   font-weight: 500;
+  letter-spacing: 2.5px;
+  font-size: 1.7rem;
 }
 
 .front-end {
@@ -54,12 +60,27 @@
 
 .menu-items-link {
   position: absolute;
+  width: 80%;
   top: 160%;
   left: 25%;
   transform: translate(-50%, -50%);
   white-space: nowrap; /*this prevents the line break*/
   line-height: 4.5rem;
 }
+
+.menu-items-link a:hover {
+  color: white;
+  font-weight: 400;
+}
+
+.menu-items-link a:hover::after {
+  content: "    ›";
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+  color: white;
+  font-weight: 800;
+}
+
 .side-text {
   display: flex;
   font-size: 1.7rem;
@@ -241,5 +262,56 @@
 @media screen and (max-width: 451px) {
   .sns-icons {
     left: 5rem;
+  }
+
+  .my-name {
+    font-size: 1.8rem;
+  }
+
+  .front-end {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .my-name {
+    font-size: 1.7rem;
+  }
+
+  .front-end {
+    font-size: 1.6rem;
+  }
+
+  .photo-sketch {
+    width: 54vw;
+  }
+}
+
+@media screen and (max-width: 1365px) and (min-width: 1001px) {
+  .my-name {
+    font-size: 1.55rem;
+  }
+
+  .front-end {
+    font-size: 1.45rem;
+  }
+
+  .menu-items-link {
+    top: 170%;
+  }
+
+  .side-text {
+    font-size: 1.65rem;
+    font-weight: 200;
+  }
+
+  .get-in-touch {
+    font-size: 1.45rem;
+    top: 235%;
+  }
+
+  .sns-icons {
+    font-size: 2.2rem;
+    top: 253%;
   }
 }
