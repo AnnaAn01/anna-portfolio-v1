@@ -1,0 +1,81 @@
+.contact-me {
+  width: 75vw;
+  margin-left: 25vw;
+  height: 100vh;
+  background-color: rgb(246, 246, 246);
+  /* background-color: red; */
+  justify-content: flex-start;
+}
+.text-section {
+  background-color: white;
+  width: 60vw;
+  height: 50vh;
+  /* border: 1px solid red; */
+}
+
+.contact-title {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 6.5vh;
+  margin-left: 4vw;
+  color: #555555;
+  font-weight: 400;
+  font-size: 3.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.contact-paragraph {
+  color: #555555;
+  font-size: 1.9rem;
+  font-weight: 200;
+  margin-left: 4vw;
+  padding-bottom: 2rem;
+}
+
+.contact-items {
+  margin-left: 4vw;
+  list-style: none;
+  font-weight: 200;
+  font-size: 1.7rem;
+  line-height: 3.5rem;
+}
+
+.items {
+  text-decoration: none;
+  /* color: #555555; */
+  color: rgb(57, 87, 78);
+}
+
+.items:hover {
+  text-decoration: underline;
+}
+
+.contact-icons {
+  position: relative;
+  /* color: #555555; */
+  color: rgb(57, 87, 78);
+  margin-right: 0.7rem;
+  margin-left: 6rem;
+  top: 0.5vh;
+  font-size: 1.8rem;
+}
+
+.email {
+  margin-left: 3.95rem;
+}
+
+.linkedin {
+  margin-left: 1.9rem;
+}
+
+.github {
+  margin-left: 3rem;
+}
+
+.twitter {
+  margin-left: 3rem;
+}
+
+.youtube {
+  margin-left: 1.65rem;
+}

@@ -17,18 +17,20 @@ body {
   box-sizing: border-box;
 }
 
-.aboutMe,
+.about-me,
 .portfolio,
 .myCv,
 .blog,
-.contactMe {
+.contact-me {
   display: flex;
   height: 90vh;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: 3rem;
 }
 
 ::selection {
-  background-color: #5fbba1;
+  /* background-color: #5fbba1; */
+  background-color: rgb(57, 87, 78);
+  color: white;
 }

@@ -1,10 +1,15 @@
-.aboutMe {
+.about-me {
+  width: 75vw;
+  margin-left: 25vw;
+  height: 100vh;
+  background-color: rgb(246, 246, 246);
+  color: #555555;
   height: 1000px;
   width: 100%;
 }
 
 @media screen and (max-width: 1001px) {
-  .aboutMe {
+  .about-me {
     height: 2000px;
     top: 250px;
     left: 50px;
