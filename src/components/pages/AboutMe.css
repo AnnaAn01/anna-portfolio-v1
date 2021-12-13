@@ -1,17 +1,31 @@
 .about-me {
+  display: block;
   width: 75vw;
   margin-left: 25vw;
   height: 100vh;
   background-color: rgb(246, 246, 246);
+  /* background-color: coral; */
   color: #555555;
-  height: 1000px;
-  width: 100%;
+}
+
+.about-title {
+  padding: 6.5vh 0 1.5rem 4vw;
+  /* padding-top: 6.5vh;
+  padding-left: 4vw; */
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+.about-text {
+  color: #555555;
+  font-size: 1.9rem;
+  font-weight: 200;
+  margin-left: 4vw;
+  padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 1001px) {
   .about-me {
-    height: 2000px;
-    top: 250px;
-    left: 50px;
   }
 }
