@@ -135,6 +135,35 @@
   display: none;
 }
 
+@media screen and (max-width: 1365px) and (min-width: 1001px) {
+  .my-name {
+    font-size: 1.55rem;
+  }
+
+  .front-end {
+    font-size: 1.45rem;
+  }
+
+  .menu-items-link {
+    top: 170%;
+  }
+
+  .side-text {
+    font-size: 1.65rem;
+    font-weight: 200;
+  }
+
+  .get-in-touch {
+    font-size: 1.45rem;
+    top: 235%;
+  }
+
+  .sns-icons {
+    font-size: 2.2rem;
+    top: 253%;
+  }
+}
+
 @media screen and (max-width: 1001px) {
   .side-menu {
     /* display: block; */
@@ -287,34 +316,5 @@
 
   .photo-sketch {
     width: 54vw;
-  }
-}
-
-@media screen and (max-width: 1365px) and (min-width: 1001px) {
-  .my-name {
-    font-size: 1.55rem;
-  }
-
-  .front-end {
-    font-size: 1.45rem;
-  }
-
-  .menu-items-link {
-    top: 170%;
-  }
-
-  .side-text {
-    font-size: 1.65rem;
-    font-weight: 200;
-  }
-
-  .get-in-touch {
-    font-size: 1.45rem;
-    top: 235%;
-  }
-
-  .sns-icons {
-    font-size: 2.2rem;
-    top: 253%;
   }
 }

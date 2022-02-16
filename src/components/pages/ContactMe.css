@@ -7,7 +7,7 @@
 .text-section {
   background-color: white;
   width: 60vw;
-  height: 50vh;
+  height: 55vh;
   /* border: 1px solid red; */
 }
 
@@ -76,4 +76,31 @@
 
 .youtube {
   margin-left: 1.65rem;
+}
+
+@media screen and (max-width: 1365px) and (min-width: 1001px) {
+}
+@media screen and (max-width: 1001px) {
+  .contact-me {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100vh;
+    background-color: white;
+  }
+
+  .text-section {
+    /* margin-top: 10px; */
+    width: 60vw;
+    height: 55vh;
+    /* border: 1px solid red; */
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 568px) {
+}
+@media screen and (max-width: 568px) and (min-width: 451px) {
+}
+@media screen and (max-width: 451px) {
+}
+@media screen and (max-width: 321px) {
 }
