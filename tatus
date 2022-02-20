@@ -1,0 +1,77 @@
+[33mcommit 691d6b450c9a4af84053c605c8a0c358b265e5b4[m[33m ([m[1;36mHEAD -> [m[1;32mresponsive-changes[m[33m)[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Sun Feb 20 21:26:39 2022 +0400
+
+    recommitting some changes
+
+[33mcommit 48924da135c9e66a9c70d8686044c0c999547fa9[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Sun Feb 20 20:18:53 2022 +0400
+
+    working on the About me section
+
+[33mcommit da1464c7609520cbe82b7f0915c51ec93432fe13[m[33m ([m[1;31morigin/responsive-changes[m[33m)[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Wed Feb 16 22:45:45 2022 +0400
+
+    Styling the Contact Me mobile version
+
+[33mcommit 3b8e25e2da2ab8130fbfe04b0240a78a40049aca[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Mon Dec 13 15:44:36 2021 +0400
+
+    editing the about me page
+
+[33mcommit 0658785ae911d338803442296dbec580fa37f70c[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Mon Dec 13 15:12:08 2021 +0400
+
+    added pages
+
+[33mcommit c5a65c3eeaf00b3c5bb2839bf47d81dd8d0bcab5[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Sun Dec 12 22:21:27 2021 +0400
+
+    Added some more responsive changes
+
+[33mcommit a782bd9308e56bb811a0f859dd5e97f809547422[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Sat Dec 11 19:14:16 2021 +0400
+
+    Added mobile functionality
+
+[33mcommit cf4b7d95974250ee5a12ebdc421c444938f07ca4[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Fri Dec 10 23:35:36 2021 +0400
+
+    added the extended menu with menu items
+
+[33mcommit fb34bca6e63eb01da8ad1e75f72b78c9ef2341df[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Fri Dec 10 21:12:26 2021 +0400
+
+    added some more responsive design
+
+[33mcommit c1545a4fd1e7c47526c10e912de5b5538e44b92f[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Sun Dec 5 21:13:38 2021 +0400
+
+    Added sns icons for web and mobile, responsive design for 1000px and less
+
+[33mcommit b914e7d0cd0fd46013b2f87d89f60069ae104470[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Sun Dec 5 16:37:00 2021 +0400
+
+    responsive changes
+
+[33mcommit 7784788c0f9eeef81ce4a86a9c96ded438a3434e[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Wed Dec 1 14:18:39 2021 +0400
+
+    updated px uits with rem
+
+[33mcommit 98b0883b581ac6377d46e356c566240f0f71e9c9[m
+Author: Anna An <arzumanyan.an@gmail.com>
+Date:   Sun Nov 28 22:08:29 2021 +0400
+
+    Added responsive changes to a new branch

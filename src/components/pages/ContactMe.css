@@ -8,6 +8,7 @@
   background-color: white;
   width: 60vw;
   height: 55vh;
+  border-radius: 0 0 5px 0;
   /* border: 1px solid red; */
 }
 

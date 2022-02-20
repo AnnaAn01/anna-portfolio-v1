@@ -12,8 +12,9 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
   font-family: "Roboto", sans-serif;
+  /* font-family: "Satoshi", sans-serif; */
   box-sizing: border-box;
 }
 
