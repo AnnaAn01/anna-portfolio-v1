@@ -23,12 +23,12 @@ export const SidebarData = [
     icon: <RiIcons.RiFilePaper2Line className="sidebar-icon-style" />,
     cName: "side-text",
   },
-  {
-    title: "BLOG",
-    path: "/blog",
-    icon: <HiIcons.HiOutlineNewspaper className="sidebar-icon-style" />,
-    cName: "side-text",
-  },
+  // {
+  //   title: "BLOG",
+  //   path: "/blog",
+  //   icon: <HiIcons.HiOutlineNewspaper className="sidebar-icon-style" />,
+  //   cName: "side-text",
+  // },
   {
     title: "CONTACT ME",
     path: "/contactme",
