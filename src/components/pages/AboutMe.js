@@ -12,28 +12,28 @@ import {
 } from "react-icons/si";
 import { DiCss3, DiSass } from "react-icons/di";
 import { RiReactjsLine } from "react-icons/ri";
-import BackgroundImage from "../../components/image/bg-image-1.jpg";
+import BackgroundImage from "../../components/image/bg-image-2.jpg";
+// import BackgroundImage from "../../components/image/bg-image-1.jpg";
 
 function AboutMe() {
   return (
     <div className="about-me">
-      {/*<video className="video-background" autoPlay muted loop>
-        <source src={BackgroundVideo} type="video/mp4" />
-  </video>*/}
       <img className="bg-image" src={BackgroundImage} alt="bg" />
-      <h3 className="about-title">
-        Hi, I'm Anna,
-        <br /> an aspiring front-end developer.
-      </h3>
-
-      <p className="skills-title">
-        <span className="brackets-span">{"< "}</span>
-        Here's my current tech stack
-        <span className="brackets-span">{" />"}</span>
-      </p>
-      {/*<span className="aboutme__horizontal-line"></span>*/}
-      {/* <p className="about-text">I speak Armenian, English, Korean, Russian.</p>*/}
-      {/*Skills section */}
+      <div className="about-wrapper">
+        <div className="about-card">
+          <h3 className="about-title">
+            Hi, I'm Anna,
+            <br /> an aspiring front-end developer.
+          </h3>
+        </div>
+        <div className="about-card">
+          <p className="about-title skills-title">
+            <span className="brackets-span">{"< "}</span>
+            Here's my current tech stack
+            <span className="brackets-span">{" />"}</span>
+          </p>
+        </div>
+      </div>
       <div className="skills-container">
         {/*<h1 className="skills-title">Skills</h1>*/}
         <div className="skills-wrapper">

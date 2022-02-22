@@ -29,14 +29,14 @@
 .name-link {
   text-decoration: none;
   padding-top: 0.8rem;
-  color: hsl(0, 0%, 100%);
+  color: rgb(255, 255, 255);
   /* color: rgb(71, 71, 71); */
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap; /*this prevents the line break*/
   letter-spacing: 0.2rem;
-  line-height: 3rem;
+  line-height: 3.5rem;
 }
 
 .name-link a {
@@ -50,14 +50,14 @@
   justify-content: center;
   font-weight: 500;
   letter-spacing: 2.5px;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 .front-end {
   display: flex;
   justify-content: center;
   font-weight: 200;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 .menu-items-link {
@@ -78,15 +78,16 @@
 .menu-items-link a:hover::after {
   content: "    ›";
   font-size: 2.5rem;
-  line-height: 1.5rem;
+  line-height: 1.9rem;
   color: white;
   font-weight: 800;
 }
 
 .side-text {
   display: flex;
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   font-weight: 200;
+  line-height: 5rem;
 }
 .side-text a {
   text-decoration: none;
@@ -98,22 +99,22 @@
 }
 
 .get-in-touch {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: rgb(221, 217, 217);
   /* color: rgb(95, 95, 95); */
   position: absolute;
   top: 225%;
-  left: 15%;
+  left: 9%;
   transform: translate(-50%, -50%);
   white-space: nowrap; /*this prevents the line break*/
 }
 
 .sns-icons {
   /* display: none; */
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   position: absolute;
   top: 240%;
-  left: 33%;
+  left: 22%;
   transform: translate(-50%, -50%);
   white-space: nowrap; /*this prevents the line break*/
 }
