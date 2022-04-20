@@ -16,6 +16,7 @@ body {
   font-family: "Roboto", sans-serif;
   /* font-family: "Satoshi", sans-serif; */
   box-sizing: border-box;
+  
 }
 
 .about-me,
@@ -34,4 +35,5 @@ body {
   /* background-color: #5fbba1; */
   background-color: rgb(57, 87, 78);
   color: white;
+  
 }

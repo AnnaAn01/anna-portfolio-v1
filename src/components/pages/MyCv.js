@@ -1,7 +1,7 @@
 import React from "react";
 
 function MyCv() {
-  return <div className="myCv">My CV here</div>;
+  return <div className="myCv"></div>;
 }
 
 export default MyCv;
