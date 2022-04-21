@@ -58,7 +58,9 @@ function Sidebar() {
             {/*Desktop version menu items until here*/}
             <div className="get-in-touch">GET IN TOUCH</div>
             {/*Social media icons from here*/}
-            <div>{width > breakpoint ? <SnsIcons /> : null}</div>
+            <div className="sns-icons">
+              {width > breakpoint ? <SnsIcons /> : null}
+            </div>
             {/*Social media icons until here*/}
           </ul>
         </div>

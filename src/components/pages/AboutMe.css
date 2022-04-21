@@ -13,7 +13,8 @@
 }
 
 .about-wrapper {
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  
 
   /* height: 60vh; */
   display: flex;
@@ -24,7 +25,7 @@
 }
 
 .about-card {
-  padding-top: 40px;
+  padding-top: 30px;
   font-size: 3rem;
 }
 
@@ -49,6 +50,8 @@
 }
 
 .about-title {
+  align-items: center;
+  margin-top: 2rem;
   display: flex;
   position: relative;
   font-size: 3rem;
@@ -56,22 +59,42 @@
   letter-spacing: 0.1rem;
   background: rgb(255, 255, 255, 0.8);
   padding: 20px;
-  width: 52vw;
+  width: 55vw;
   top: 20px;
-  left: 11.5vw;
-  border-radius: 5px;
+  left: 10vw;
+  border-radius: 10px;
   box-shadow: 0 1px 3px rgba(75, 115, 103, 0.7);
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  justify-content: center;
+ 
+  
 }
 
 .skills-title {
-  position: relative;
-  height: 80px;
+  /* position: relative;
   background-color: rgb(255, 255, 255, 0.8);
 
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 1px 3px rgba(75, 115, 103, 0.7);
   font-size: 2.4rem;
+  width: 52vw; */
+
+
+
+  display: flex;
+  position: relative;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  background: rgb(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 55vw;
+  top: 20px;
+  left: 10vw;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(75, 115, 103, 0.7);
+  /* padding-top: 30px; */
+  justify-content: center;
 }
 
 .brackets-span {
@@ -80,12 +103,7 @@
   font-size: 2.5rem;
 }
 
-/* .aboutme__horizontal-line {
-  border-top: 2px solid rgba(210, 215, 211, 0.6);
-  display: block;
-  width: 70%;
-  margin-left: 100px;
-} */
+
 
 .skills-container {
   /* max-width: 1100px; */
@@ -96,13 +114,14 @@
   align-items: center;
   /* background: coral; */
   /* z-index: 1000; */
+  
 }
 
 .skills-wrapper {
   position: relative;
   /* padding-top: 5vh; */
   /* padding-left: 7vw; */
-  
+  top: 1rem;
   /* background-color: green; */
   margin: 0 auto;
   display: grid;
@@ -112,34 +131,30 @@
   /* padding: 0 50px; */
   justify-content: center;
   align-items: center;
+  width: 55vw;
 }
 
 .skills-card {
 
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255, 0.9);
   /* background: #ebeee1;
   border: 1.7px solid #f3e5a5; */
   /* border: 1.7px solid rgba(75, 115, 103, 0.502); */
-  border-radius: 3px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   grid-gap: 20px;
   justify-content: flex-start;
   align-items: flex-start;
-  /* border-radius: 10px; */
-  /* max-height: 350px; */
-  /* padding: 30px 0; */
-  box-shadow: 0 1px 3px rgba(75, 115, 103, 0.7);
+
+  box-shadow: 0 2px 2px rgba(75, 115, 103, 0.7);
   transition: all 0.2s ease-in;
   height: 100%;
   width: 100%;
   padding: 25px;
 }
 
-/* .skills-card:hover {
-  transform: scale(1.02);
-  transition: all 0.2s ease-in-out;
-} */
+
 
 .skills-name {
   font-size: 2.5rem;
@@ -157,5 +172,87 @@
   justify-content: center;
   align-items: center;
   padding-right: 5px;
-  color: rgb(75, 75, 75);
+  color: rgb(57, 87, 78);
+}
+
+.aboutMeBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contactMeBtn, .projectsBtn {
+  cursor: pointer;
+  border: none;
+ 
+  /* border: 2px solid rgba(240, 194, 82, 0.502); */
+  /* background-color: rgb(253, 253, 150, 0.95); */
+  background-color: rgba(75, 115, 103); 
+  padding: 15px 32px;
+  font-size: 2rem;
+  border-radius: 7px;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 25px 0 25px;
+  font-weight: 600;
+  color: white;
+}
+
+.contactMeBtn:hover, .projectsBtn:hover {
+  /* transform: translateY(2px); */
+  /* background-color: rgba(233, 233, 145, 0.95); */
+  background-color: rgb(217, 147, 146);
+  color:black;
+  /* border: 1px solid rgb(75, 75, 75); */
+}
+
+
+
+@media screen and (max-width: 1365px) and (min-width: 1001px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .skills-card {
+  }
+
+ .skills-title {
+  font-size: 2rem;
+ }
+ .skills-list {
+   font-size: 1.6rem;
+   justify-content: flex-start;
+   align-items: start;
+  
+   word-wrap:break-word;
+   white-space: pre;
+   
+ }
+
+}
+
+@media screen and (max-width: 1001px) {
+  .bg-image {
+    width: 100%;
+  }
+  .about-me {
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 568px) {
+ 
+}
+
+@media screen and (max-width: 568px) and (min-width: 451px) {
+  
+}
+
+@media screen and (max-width: 451px) {
+ 
+}
+
+@media screen and (max-width: 321px) {
+  
 }

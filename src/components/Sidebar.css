@@ -120,14 +120,18 @@
   left: 30%;
   transform: translate(-50%, -50%);
   white-space: nowrap; /*this prevents the line break*/
+  
 }
 
 .sns-icons a {
   color: rgb(204, 201, 201);
   /* color: rgb(95, 95, 95); */
+  
 }
+
 .sns-icons a:hover {
   color: white;
+  
 }
 .social-media-span {
   padding-right: 1rem;
@@ -161,11 +165,13 @@
   .get-in-touch {
     font-size: 1.45rem;
     top: 235%;
+    left: 27px;
   }
 
   .sns-icons {
     font-size: 2.2rem;
     top: 253%;
+    left: 28px;
   }
 }
 

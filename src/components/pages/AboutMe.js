@@ -21,13 +21,10 @@ function AboutMe() {
       <img className="bg-image" src={BackgroundImage} alt="bg" />
       <div className="about-wrapper">
         <div className="about-card">
-          <h3 className="about-title">
-            Hi, I'm Anna,
-            <br /> an aspiring front-end developer.
-          </h3>
+          <h3 className="about-title">Hi, I'm Anna, a front-end developer.</h3>
         </div>
         <div className="about-card">
-          <p className="about-title skills-title">
+          <p className="skills-title">
             <span className="brackets-span">{"< "}</span>
             Here's my current tech stack
             <span className="brackets-span">{" />"}</span>
@@ -97,6 +94,14 @@ function AboutMe() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="aboutMeBtns">
+        <a href="/portfolio" className="projectsBtn">
+          My Projects
+        </a>
+        <a href="/contactme" className="contactMeBtn">
+          Contact me
+        </a>
       </div>
     </div>
   );
