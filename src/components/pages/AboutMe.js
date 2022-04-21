@@ -25,9 +25,9 @@ function AboutMe() {
         </div>
         <div className="about-card">
           <p className="skills-title">
-            <span className="brackets-span">{"< "}</span>
-            Here's my current tech stack
-            <span className="brackets-span">{" />"}</span>
+            {/*<span className="brackets-span">{"<  "}&#160; </span>*/}
+            &#60; Here's my current tech stack / &#62;
+            {/*<span className="brackets-span">&#160;{" />"}</span>*/}
           </p>
         </div>
         <div className="skills-container">
