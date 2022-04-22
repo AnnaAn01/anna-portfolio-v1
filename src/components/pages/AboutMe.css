@@ -234,17 +234,23 @@
 
 @media screen and (max-width: 1001px) {
   .about-me {
+    position: relative;
     width: auto;
     margin-left: 0;
+    height: 120vh;
+    
   }
      
   .bg-image {
     position: absolute;  
-    height: 200vh;
+    /* height: 200vh; */
+    height: auto;
+    height: 120vh;
     opacity: 0.5;
     margin-left: 0;
     z-index: -1;
     object-fit: cover;
+    background-size: 200vh;
   }
 
 
@@ -300,12 +306,12 @@
     box-shadow: 0 1px 3px rgba(75, 115, 103, 0.7);
    
   }
-
+/* 
   .brackets-span {
     color: rgb(57, 87, 78);
     font-weight: bold;
     font-size: 4rem;
-  }
+  } */
 
   /* Tech skills */
   .skills-container {
@@ -327,10 +333,10 @@
   
   .skills-card {
   border: none;
-   /* border: 3px solid green; */
-   margin-bottom: 2rem;
+   border: 3px solid green;
+   margin-bottom: 2.5rem;
    /* width: 70vw; */
-   width: auto;
+   width: 80vw;
    justify-content: center;
    align-items: center;
    
