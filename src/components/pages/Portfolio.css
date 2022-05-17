@@ -1,0 +1,41 @@
+.portfolio {
+  display: block;
+  width: 75vw;
+  margin-left: 25vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-wrapper {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+}
+
+.project-title-h1 {
+}
+
+.project-card-wrapper {
+}
+
+.project-card {
+}
+
+.project-name-h2 {
+}
+
+.project-img {
+}
+
+.project-teck-stack {
+}
+
+.project-description {
+}
+
+.project-btn-wrapper {
+}
+
+.project-btn {
+}
