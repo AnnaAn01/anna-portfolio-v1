@@ -1,5 +1,7 @@
 .side-menu {
-  background-color: rgba(61, 94, 84, 0.95);
+  /* background-color: rgba(61, 94, 84, 0.95); */
+  /* background-color: rgba(41, 66, 59, 0.95); */
+  background-color: rgba(41, 66, 59);
   width: 25vw;
   height: 100vh;
   position: fixed;
