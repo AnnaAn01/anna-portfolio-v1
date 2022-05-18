@@ -5,37 +5,114 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-color: rgb(246, 246, 246);
 }
 
 .project-wrapper {
   /* display: flex;
   flex-direction: column;
   justify-content: flex-start; */
+  /* background-color: rgb(157, 221, 157); */
+  justify-content: center;
+  align-items: center;
 }
 
 .project-title-h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 4rem;
 }
 
 .project-card-wrapper {
+  max-width: 150rem;
+  /* background-color: rgb(224, 155, 192); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
 }
 
 .project-card {
+  /* background-color: red; */
+  background-color: #fff;
+  max-width: 35rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem;
+  margin: 0 4rem;
+  border-radius: 10px;
 }
 
 .project-name-h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 3rem;
 }
 
 .project-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-tech-stack-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .project-teck-stack {
+  margin: 2rem 0.5rem;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 0.8rem;
 }
 
 .project-description {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .project-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-btn {
+  text-align: center;
+  width: 15rem;
+  /* min-width: 12rem; */
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  border: none;
+
+  /* border: 2px solid rgba(240, 194, 82, 0.502); */
+  background-color: rgba(150, 253, 150, 0.95);
+  /* background-color: rgba(75, 115, 103); */
+  padding: 15px 32px;
+  font-size: 2rem;
+  border-radius: 7px;
+  text-decoration: none;
+  text-align: center;
+  margin: 25px 10px 0px 10px;
+  font-weight: 600;
+  color: black;
 }
