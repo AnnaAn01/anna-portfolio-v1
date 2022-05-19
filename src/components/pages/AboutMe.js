@@ -125,7 +125,9 @@ import {
 import { DiCss3, DiSass } from "react-icons/di";
 import { RiReactjsLine } from "react-icons/ri";
 // import BackgroundImage from "../../components/image/bg-image-2.jpg";
-import BackgroundImage from "../../components/image/bg-mountain4.jpg";
+// import BackgroundImage from "../../components/image/bg-mountain1.jpg";
+// import BackgroundImage from "../../components/image/glass-2.jpg";
+import BackgroundImage from "../../components/image/glass-2.jpg";
 
 function AboutMe() {
   // const [state] = useEffect({
@@ -137,6 +139,7 @@ function AboutMe() {
   return (
     <div className="about-me">
       {/*<img className="bg-image" src={BackgroundImage} alt="bg" />*/}
+      <img className="bg-image" src={BackgroundImage} alt="bg" />
       <div className="about-wrapper">
         <div className="about-card">
           {/*<h3 className="about-title">Hi, I'm Anna, a front-end developer.</h3>*/}
