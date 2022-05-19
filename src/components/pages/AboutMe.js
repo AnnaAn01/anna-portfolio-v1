@@ -136,7 +136,7 @@ function AboutMe() {
 
   return (
     <div className="about-me">
-      <img className="bg-image" src={BackgroundImage} alt="bg" />
+      {/*<img className="bg-image" src={BackgroundImage} alt="bg" />*/}
       <div className="about-wrapper">
         <div className="about-card">
           {/*<h3 className="about-title">Hi, I'm Anna, a front-end developer.</h3>*/}
@@ -144,21 +144,22 @@ function AboutMe() {
             <div className="about-title">Welcome</div>
             {/* <div className="title2">{state.title2}</div>
             <div className="title3">{state.title3}</div>*/}
+
+            <div className="about-title">
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  delay: 80,
+                  strings: [
+                    "I'm Anna Arzumanyan.",
+                    "I'm a front-end developer.",
+                    "< Here's my current tech stack / >",
+                  ],
+                }}
+              ></Typewriter>
+            </div>
           </h3>
-          <div className="about-title">
-            <Typewriter
-              options={{
-                autoStart: true,
-                loop: true,
-                delay: 80,
-                strings: [
-                  "I'm Anna Arzumanyan.",
-                  "I'm a front-end developer.",
-                  "< Here's my current tech stack / >",
-                ],
-              }}
-            ></Typewriter>
-          </div>
         </div>
         <div className="about-card">
           {/*<p className="skills-title">
@@ -166,7 +167,6 @@ function AboutMe() {
           </p>*/}
         </div>
         <div className="skills-container">
-          {/*<h1 className="skills-title">Skills</h1>*/}
           <div className="skills-wrapper">
             <div className="skills-card">
               <p className="skills-list">

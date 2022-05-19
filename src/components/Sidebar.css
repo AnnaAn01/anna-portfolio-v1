@@ -1,10 +1,16 @@
 .side-menu {
-  /* background-color: rgba(61, 94, 84, 0.95); */
+  background-color: #317773;
+  background-color: rgba(61, 94, 84, 0.95);
+  background-color: #3d5e54;
   /* background-color: rgba(41, 66, 59, 0.95); */
-  background-color: rgba(41, 66, 59);
+  /* background-color: #29423b; */
+  /* background-color: #264653; */
+  background-color: rgba(145, 13, 13, 0.85);
+  /* background-color: rgba(0, 0, 0, 0.8); */
   width: 25vw;
   height: 100vh;
   position: fixed;
+  /* color: #910d0dcc; */
 }
 
 .name-and-photo {
