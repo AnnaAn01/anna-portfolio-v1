@@ -1,5 +1,5 @@
 .side-menu {
-  background-color: rgba(232, 90, 79, 1);
+  background-color: var(--main-bg-color);
   /* background-color: #e85a4f; */
   /* background-color: rgba(61, 94, 84, 0.95);
   background-color: #3d5e54; */

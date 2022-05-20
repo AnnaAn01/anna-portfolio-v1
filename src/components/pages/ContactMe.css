@@ -9,7 +9,6 @@
   width: 60vw;
   height: 55vh;
   border-radius: 0 0 5px 0;
-  /* border: 1px solid red; */
 }
 
 .contact-title {
@@ -17,14 +16,14 @@
   letter-spacing: 0.1rem;
   margin-top: 6.5vh;
   margin-left: 4vw;
-  color: #555555;
+  color: var(--main-title-color);
   font-weight: 400;
   font-size: 3.5rem;
   padding-bottom: 1.5rem;
 }
 
 .contact-paragraph {
-  color: #555555;
+  color: var(--main-title-color);
   font-size: 1.9rem;
   font-weight: 200;
   margin-left: 4vw;
@@ -41,8 +40,7 @@
 
 .items {
   text-decoration: none;
-  /* color: #555555; */
-  color: rgb(57, 87, 78);
+  color: var(--secondary-page-color);
 }
 
 .items:hover {
@@ -51,8 +49,7 @@
 
 .contact-icons {
   position: relative;
-  /* color: #555555; */
-  color: rgb(57, 87, 78);
+  color: var(--secondary-page-color);
   margin-right: 0.7rem;
   margin-left: 6rem;
   top: 0.5vh;

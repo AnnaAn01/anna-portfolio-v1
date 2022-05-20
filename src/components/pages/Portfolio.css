@@ -21,6 +21,7 @@
   text-align: center;
   font-size: 4rem;
   padding: 4rem;
+  color: var(--main-title-color);
 }
 
 .project-card-wrapper {
@@ -48,6 +49,7 @@
   text-align: center;
   padding-bottom: 1rem;
   font-size: 3rem;
+  color: var(--main-title-color);
 }
 
 .project-img {
