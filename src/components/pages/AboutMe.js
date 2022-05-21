@@ -148,7 +148,7 @@ function AboutMe() {
             {/* <div className="title2">{state.title2}</div>
             <div className="title3">{state.title3}</div>*/}
 
-            <div className="about-title">
+            <div className="about-title typing">
               <Typewriter
                 options={{
                   autoStart: true,
@@ -157,7 +157,7 @@ function AboutMe() {
                   strings: [
                     "I'm Anna Arzumanyan.",
                     "I'm a front-end developer.",
-                    "< Here's my current tech stack / >",
+                    "< Here's my tech stack / >",
                   ],
                 }}
               ></Typewriter>
@@ -198,7 +198,7 @@ function AboutMe() {
               </p>
             </div>
 
-            <div className="skills-card">
+            <div className="skills-card skills-card-second">
               <p className="skills-list">
                 <span className="tech-icons">
                   <SiGithub />
