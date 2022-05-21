@@ -122,8 +122,9 @@ import {
   SiGithub,
   SiVisualstudiocode,
 } from "react-icons/si";
-import { DiCss3, DiSass } from "react-icons/di";
+import { DiCss3, DiSass, DiJavascript } from "react-icons/di";
 import { RiReactjsLine } from "react-icons/ri";
+import { IoLogoJavascript } from "react-icons/io";
 // import BackgroundImage from "../../components/image/bg-image-2.jpg";
 // import BackgroundImage from "../../components/image/bg-mountain1.jpg";
 // import BackgroundImage from "../../components/image/glass-2.jpg";
@@ -171,7 +172,7 @@ function AboutMe() {
         </div>
         <div className="skills-container">
           <div className="skills-wrapper">
-            <div className="skills-card">
+            <div className="skills-card skills-card-first">
               <p className="skills-list">
                 <span className="tech-icons">
                   <SiHtml5 />
@@ -185,8 +186,8 @@ function AboutMe() {
                 CSS
               </p>
               <p className="skills-list">
-                <span className="tech-icons">
-                  <SiJavascript />
+                <span className="tech-icons javascript-icon">
+                  <IoLogoJavascript />
                 </span>
                 Javascript
               </p>
@@ -211,8 +212,8 @@ function AboutMe() {
                 </span>
                 Sass
               </p>
-              <p className="skills-list">
-                <span className="tech-icons">
+              <p className="skills-list styled-components-text">
+                <span className="tech-icons styled-icon">
                   <SiStyledcomponents />
                 </span>
                 Styled Components
