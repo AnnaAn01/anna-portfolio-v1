@@ -14,14 +14,15 @@ function ContactMe() {
 
         <ul className="contact-items">
           <li className="email-item">
-            Email:
+            <div className="div-item-name">Email:</div>
             <a href="mailto: arzumanyan.an@gmail.com" className="items email">
               <MdIcons.MdEmail className="contact-icons" />
               arzumanyan.an@gmail.com
             </a>
           </li>
           <li className="linked-item">
-            LinkedIn:
+            <div className="div-item-name"> LinkedIn:</div>
+
             <a
               target="_blank"
               rel="noreferrer"
@@ -33,7 +34,7 @@ function ContactMe() {
             </a>
           </li>
           <li className="github-item">
-            GitHub:
+            <div className="div-item-name"> GitHub:</div>
             <a
               target="_blank"
               rel="noreferrer"
@@ -45,7 +46,8 @@ function ContactMe() {
             </a>
           </li>
           <li className="twitter-item">
-            Twitter:
+            <div className="div-item-name"> Twitter:</div>
+
             <a
               target="_blank"
               rel="noreferrer"
@@ -57,7 +59,8 @@ function ContactMe() {
             </a>
           </li>
           <li className="youtube-item">
-            YouTube:
+            <div className="div-item-name"> YouTube:</div>
+
             <a
               target="_blank"
               rel="noreferrer"
