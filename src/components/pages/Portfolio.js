@@ -3,6 +3,8 @@ import "./Portfolio.css";
 import projectImgDefault from "../image/project-image-default.jpg";
 import projectGifDefault from "../image/project-gif-test.gif";
 import projectvideoDefault from "../video/project-video-default.mp4";
+import { FaArrowCircleUp } from "react-icons/fa";
+import { SiGithub } from "react-icons/si";
 
 function Portfolio() {
   return (
@@ -11,7 +13,7 @@ function Portfolio() {
         <h1 className="project-title-h1">My Projects</h1>
         <div className="project-card-wrapper">
           <div className="project-card">
-            <h2 className="project-name-h2">Project 1</h2>
+            <h2 className="project-name-h2">Language Learning Website</h2>
             <img className="project-img" src={projectImgDefault} alt="" />
             <div className="project-tech-stack-wrapper">
               <p className="project-teck-stack">HTML</p>
@@ -23,12 +25,18 @@ function Portfolio() {
               here 1
             </p>
             <div className="project-btn-wrapper">
-              <button className="project-btn">Live</button>
-              <button className="project-btn">Source</button>
+              <button className="project-btn">
+                <FaArrowCircleUp className="live-icon" />
+                &nbsp; Live
+              </button>
+              <button className="project-btn">
+                <SiGithub className="github-icon" />
+                &nbsp; Source
+              </button>
             </div>
           </div>
           <div className="project-card">
-            <h2 className="project-name-h2">Project 2</h2>
+            <h2 className="project-name-h2">Project 2 website </h2>
             <img className="project-img" src={projectGifDefault} alt="" />
 
             {/*<video autoplay loop className="project-video" width="250">
@@ -49,8 +57,14 @@ function Portfolio() {
               here 2
             </p>
             <div className="project-btn-wrapper">
-              <button className="project-btn">Live</button>
-              <button className="project-btn">Source</button>
+              <button className="project-btn">
+                <FaArrowCircleUp className="live-icon" />
+                &nbsp; Live
+              </button>
+              <button className="project-btn">
+                <SiGithub className="github-icon" />
+                &nbsp; Source
+              </button>
             </div>
           </div>
         </div>
