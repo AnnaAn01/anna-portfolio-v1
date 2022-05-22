@@ -1,0 +1,118 @@
+.cv-container {
+  display: block;
+  width: 75vw;
+  margin-left: 25vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+}
+
+.cv-wrapper {
+  padding: 1rem;
+  background-color: rgb(234, 234, 145);
+  margin: 0 2rem 2rem 2rem;
+  border-radius: 5px;
+}
+
+.cv-name-container {
+  /* background-color: rgb(164, 99, 224); */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cv-name-and-frontend {
+  /* background-color: rgba(0, 128, 0, 1); */
+  margin-right: 1rem;
+  /* justify-content: flex-end;
+  align-items: flex-end; */
+  margin-left: 55%;
+}
+
+.cv-my-name {
+}
+
+.cv-frontend {
+}
+
+.cv-contacts {
+  background-color: red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* text-align: end; */
+}
+
+.cv-contacts-ul {
+  list-style-type: none;
+}
+
+.cv-contacts-items {
+}
+
+/* Universal styles for the below sections */
+
+.cv-sub-container {
+}
+
+.cv-sub-title {
+}
+
+.cv-sub-list-ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  background-color: aquamarine;
+}
+
+.cv-sub-items-li {
+  font-size: 2rem;
+}
+/* Until here */
+.cv-skills-container {
+}
+
+.skills-title {
+}
+
+.skills-list {
+}
+
+.skills-items {
+}
+
+.cv-education-container {
+}
+
+.education-title {
+}
+
+.education-list {
+}
+
+.education-items {
+}
+
+.cv-experience-container {
+}
+
+.experience-title {
+}
+
+.experience-list {
+}
+
+.experience-items {
+}
+
+.cv-other-container {
+}
+
+.other-title {
+}
+
+.other-list {
+}
+
+.other-items {
+}
