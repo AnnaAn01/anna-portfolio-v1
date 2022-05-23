@@ -6,7 +6,7 @@ html {
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -16,7 +16,7 @@ body {
   font-family: "Roboto", sans-serif;
   /* font-family: "Satoshi", sans-serif; */
   box-sizing: border-box;
-  
+  overflow-x: hidden;
 }
 
 .about-me,
@@ -35,5 +35,4 @@ body {
   /* background-color: #5fbba1; */
   background-color: rgb(57, 87, 78);
   color: white;
-  
 }

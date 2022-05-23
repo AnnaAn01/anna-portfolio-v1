@@ -150,7 +150,7 @@
 .skills-list {
   display: flex;
   flex-direction: column;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   line-height: 1.5;
   word-wrap: break-word;
