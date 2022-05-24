@@ -108,11 +108,19 @@
 }
 
 .sns-icons {
-  font-size: 2.7rem;
+  /* font-size: 2.7rem;
   position: absolute;
   top: 240%;
 
   left: 30%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; */
+
+  font-size: 2.7rem;
+  position: absolute;
+  top: 240%;
+
+  left: 22%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
@@ -166,7 +174,7 @@
   .sns-icons {
     font-size: 2.2rem;
     top: 253%;
-    left: 28px;
+    left: 20px;
   }
 }
 
@@ -271,7 +279,7 @@
     font-size: 2.2rem;
     position: absolute;
     top: 55%;
-    left: 65px;
+    left: 55px;
     transform: translate(-50%, -50%);
   }
 

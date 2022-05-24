@@ -58,6 +58,7 @@ function ContactMe() {
               @AnnaSoftwareDev
             </a>
           </li>
+          {/* 
           <li className="youtube-item">
             <div className="div-item-name"> YouTube:</div>
 
@@ -70,7 +71,7 @@ function ContactMe() {
               <FaIcons.FaYoutube className="contact-icons" />
               Anna's youtube
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

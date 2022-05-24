@@ -29,11 +29,12 @@ export const SnsIcons = () => {
           <FaIcons.FaTwitterSquare className="sidebar-sns" />
         </a>
       </span>
+      {/* 
       <span className="social-media-span">
         <a target="_blank" rel="noreferrer" href="https://youtube.com">
           <FaIcons.FaYoutube className="sidebar-sns" />
         </a>
-      </span>
+      </span> */}
     </div>
   );
 };

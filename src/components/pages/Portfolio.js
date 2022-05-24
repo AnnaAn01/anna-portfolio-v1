@@ -18,11 +18,11 @@ function Portfolio() {
             <div className="project-tech-stack-wrapper">
               <p className="project-teck-stack">HTML</p>
               <p className="project-teck-stack">CSS</p>
-              <p className="project-teck-stack">JavaScript</p>
+              <p className="project-teck-stack">React JS</p>
             </div>
             <p className="project-description">
-              some description here 1, some description here 1, some description
-              here 1
+              A React JS website, made using React Router, React Link and Styled
+              Components.
             </p>
             <div className="project-btn-wrapper">
               <button className="project-btn">
@@ -50,7 +50,7 @@ function Portfolio() {
             <div className="project-tech-stack-wrapper">
               <p className="project-teck-stack">HTML</p>
               <p className="project-teck-stack">CSS</p>
-              <p className="project-teck-stack">React JS</p>
+              <p className="project-teck-stack">Javascript</p>
             </div>
             <p className="project-description">
               some description here 2, some description here 2, some description

@@ -17,12 +17,12 @@ export const SidebarData = [
     icon: <HiIcons.HiOutlineDesktopComputer className="sidebar-icon-style" />,
     cName: "side-text",
   },
-  {
-    title: "MY CV",
-    path: "/mycv",
-    icon: <RiIcons.RiFilePaper2Line className="sidebar-icon-style" />,
-    cName: "side-text",
-  },
+  // {
+  //   title: "MY CV",
+  //   path: "/mycv",
+  //   icon: <RiIcons.RiFilePaper2Line className="sidebar-icon-style" />,
+  //   cName: "side-text",
+  // },
   // {
   //   title: "BLOG",
   //   path: "/blog",

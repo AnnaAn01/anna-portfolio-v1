@@ -4,7 +4,6 @@ import Photo from "../img/photoSketch.jpg";
 import { SnsIcons } from "./SnsIcons";
 import "./Sidebar.css";
 import MobileMenuItems from "./MobileMenuItems";
-import RiArrowRightSLine from "react-icons/ri";
 import "../components/mainStyles.css";
 
 function Sidebar() {
