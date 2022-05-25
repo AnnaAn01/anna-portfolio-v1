@@ -110,9 +110,8 @@
   cursor: pointer;
   border: none;
 
-  /* border: 2px solid rgba(240, 194, 82, 0.502); */
   background-color: var(--secondary-page-color);
-  /* background-color: rgba(75, 115, 103); */
+
   padding: 15px 20px;
   font-size: 2rem;
   border-radius: 15px;
@@ -130,9 +129,6 @@
 
 .live-icon {
   stroke-width: 1;
-  /* margin-left: 1rem; */
-  /* font-size: 2rem; */
-  /* border-radius: 5px; */
 }
 
 @media screen and (max-width: 1365px) and (min-width: 1001px) {
@@ -156,7 +152,6 @@
     margin-top: 3rem;
     margin-left: 0rem;
     height: auto;
-    /* background-color: white; */
   }
   .project-wrapper {
   }
