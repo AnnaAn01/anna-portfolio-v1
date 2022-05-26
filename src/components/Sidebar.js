@@ -48,7 +48,7 @@ function Sidebar() {
           <ul className="side-menu-items">
             <div className="name-link">
               <Link to="/" className="name-link">
-                <span className="my-name">ANNA SOFTWAREDEV</span>
+                <span className="my-name">ANNA ARZUMANYAN</span>
                 <span className="front-end">FRONT-END DEVELOPER</span>
               </Link>
             </div>
