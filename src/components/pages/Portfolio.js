@@ -2,6 +2,8 @@ import React from "react";
 import "./Portfolio.css";
 import projectImgDefault from "../image/project-image-default.jpg";
 import projectGifDefault from "../image/project-gif-test.gif";
+import projectimg1 from "../image/lang-course-1.PNG";
+import ComingSoon from "../image/coming-soon.png";
 import projectvideoDefault from "../video/project-video-default.mp4";
 import { FaArrowCircleUp } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
@@ -14,7 +16,7 @@ function Portfolio() {
         <div className="project-card-wrapper">
           <div className="project-card">
             <h2 className="project-name-h2">Language Learning Website</h2>
-            <img className="project-img" src={projectImgDefault} alt="" />
+            <img className="project-img" src={projectimg1} alt="" />
             <div className="project-tech-stack-wrapper">
               <p className="project-teck-stack">HTML</p>
               <p className="project-teck-stack">CSS</p>
@@ -37,7 +39,7 @@ function Portfolio() {
           </div>
           <div className="project-card">
             <h2 className="project-name-h2">Project 2 website </h2>
-            <img className="project-img" src={projectGifDefault} alt="" />
+            <img className="project-img" src={ComingSoon} alt="" />
 
             {/*<video autoplay loop className="project-video" width="250">
               <source
@@ -53,8 +55,7 @@ function Portfolio() {
               <p className="project-teck-stack">Javascript</p>
             </div>
             <p className="project-description">
-              some description here 2, some description here 2, some description
-              here 2
+              A new website is being worked on right now. Coming very soon!
             </p>
             <div className="project-btn-wrapper">
               <button className="project-btn">

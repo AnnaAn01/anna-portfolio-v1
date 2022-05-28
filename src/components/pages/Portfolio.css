@@ -36,10 +36,12 @@
 
 .project-card {
   background-color: #fff;
-  box-shadow: 0 1px 3px rgba(144, 173, 164, 0.7);
+
+  box-shadow: 0 1px 3px rgba(123, 159, 148, 0.7);
 
   /* background-color: red; */
   max-width: 40rem;
+  height: 53rem;
   justify-content: center;
   align-items: center;
   padding: 2rem 2rem;
@@ -61,7 +63,7 @@
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(144, 173, 164, 0.7);
+  box-shadow: 0 1px 3px rgba(40, 72, 62, 0.7);
 }
 
 .project-video {
@@ -92,6 +94,8 @@
 .project-description {
   text-align: center;
   font-size: 2rem;
+  /* background-color: red; */
+  height: 4em;
 }
 
 .project-btn-wrapper {
@@ -117,7 +121,7 @@
   border-radius: 15px;
   text-decoration: none;
   text-align: center;
-  margin: 25px 7px 0px 7px;
+  margin: 15px 7px 0px 7px;
   font-weight: 600;
   color: white;
 }
