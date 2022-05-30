@@ -43,13 +43,13 @@ function Sidebar() {
       <nav className="side-menu" onClick={closeMobileMenu}>
         <div className="name-and-photo">
           <Link to="/" className="photo-sketch">
-            <img src={Photo1} alt="Profile" className="photo-sketch" />
+            <img src={Photo} alt="Profile" className="photo-sketch" />
           </Link>
 
           <ul className="side-menu-items">
             <div className="name-link">
               <Link to="/" className="name-link">
-                <span className="my-name">ANNA SOFTWAREDEV</span>
+                <span className="my-name">ANNA ARZUMANYAN</span>
                 <span className="front-end">FRONT-END DEVELOPER</span>
               </Link>
             </div>

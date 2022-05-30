@@ -26,7 +26,7 @@ function ContactMe() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/anna-arzumanyan/"
               className="items linkedin"
             >
               <FaIcons.FaLinkedin className="contact-icons" />

@@ -96,10 +96,10 @@ function AboutMe() {
         </div>
       </div>
       <div className="aboutMeBtns">
-        <a href="/portfolio" className="projectsBtn">
+        <a href="/portfolio#/portfolio" className="projectsBtn">
           My Projects
         </a>
-        <a href="/contactme" className="contactMeBtn">
+        <a href="/portfolio#/contactme" className="contactMeBtn">
           Contact me
         </a>
       </div>

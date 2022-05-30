@@ -6,12 +6,20 @@ export const SnsIcons = () => {
   return (
     <div className="sns-icons">
       <span className="social-media-span">
-        <a target="_blank" rel="noreferrer" href="https://gmail.com">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="mailto:arzumanyan.an@gmail.com"
+        >
           <MdIcons.MdEmail className="sidebar-sns" />
         </a>
       </span>
       <span className="social-media-span">
-        <a target="_blank" rel="noreferrer" href="https://linkedin.com">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://linkedin.com/in/anna-arzumanyan/"
+        >
           <FaIcons.FaLinkedin className="sidebar-sns" />
         </a>
       </span>
