@@ -27,14 +27,24 @@ function Portfolio() {
               Components.
             </p>
             <div className="project-btn-wrapper">
-              <button className="project-btn">
+              <a
+                className="project-btn"
+                href="https://annaan01.github.io/language-courses-react-website/#/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaArrowCircleUp className="live-icon" />
                 &nbsp; Live
-              </button>
-              <button className="project-btn">
+              </a>
+              <a
+                className="project-btn"
+                href="https://github.com/AnnaAn01/language-courses-react-website"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <SiGithub className="github-icon" />
                 &nbsp; Source
-              </button>
+              </a>
             </div>
           </div>
           <div className="project-card">
